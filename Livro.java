@@ -9,17 +9,17 @@ public class Livro {
     public LocalDate dataLancamento;
 
 
-    public float verificarTempoLanc (float dataLancamento){
-//        LocalDate dataAtual = LocalDate.now();
-//        long anos = dataAtual.getYear() - dataLancamento.getYear();
-     //   só aceita livros com mais de 5  anos de lançamen
-
-        if (dataLancamento >= 5 ){
-            return 0;
-        }else {
-            return dataLancamento * 0.05f;
-        }
-    }
+//    public float verificarTempoLanc (float dataLancamento){
+////        LocalDate dataAtual = LocalDate.now();
+////        long anos = dataAtual.getYear() - dataLancamento.getYear();
+//     //   só aceita livros com mais de 5  anos de lançamen
+//
+//        if (dataLancamento >= 5 ){
+//            return 0;
+//        }else {
+//            return dataLancamento * 0.05f;
+//        }
+//    }
 
 
 }
